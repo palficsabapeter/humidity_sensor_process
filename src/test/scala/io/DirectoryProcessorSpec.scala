@@ -4,12 +4,10 @@ package io
 import better.files.File
 import org.mockito.ArgumentMatchersSugar
 import org.mockito.MockitoSugar
-import org.scalatest.matchers.should.Matchers
-import org.scalatest.wordspec.AnyWordSpecLike
+import testutil.TestBase
 
 class DirectoryProcessorSpec
-    extends AnyWordSpecLike
-    with Matchers
+    extends TestBase
     with MockitoSugar
     with ArgumentMatchersSugar {
   trait TestScope {

@@ -2,10 +2,9 @@ package csaba.palfi
 package io
 
 import better.files.File
-import org.scalatest.matchers.should.Matchers
-import org.scalatest.wordspec.AnyWordSpecLike
+import testutil.TestBase
 
-class FileProcessorSpec extends AnyWordSpecLike with Matchers {
+class FileProcessorSpec extends TestBase {
   "FileProcessor" should {
     "#processFile" should {
       "return with 5" in {
